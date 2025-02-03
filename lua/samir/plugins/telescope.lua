@@ -8,11 +8,6 @@ return {
         dependencies = { "nvim-lua/plenary.nvim" },
         config = function()
             require("telescope").setup({
-                pickers = {
-                    find_files = {
-                        theme = "dropdown",
-                    },
-                },
                 mappings = {
                     i = {
                         ["<C-j>"] = require("telescope.actions").move_selection_next,

@@ -33,3 +33,4 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     vim.cmd("lua vim.lsp.buf.format()")
   end,
 })
+
